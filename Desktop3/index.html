@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">File Upload</h1>
+
+      <!-- Upload box -->
+      <div class="upload-box">
+        <img src="cloud.png" alt="cloud" width="115" height="102" />
+        <p>Drag files here or <a class="browse-link" href="#">Browse</a></p>
+      </div>
+
+      <!-- File info -->
+      <div class="file-info">
+        <div class="file-icon">JPG</div>
+        <div class="file-details">
+          <p class="file-name">Image_5675.jpg</p>
+
+          <!-- Progress bar -->
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+
+          <!-- Size + Status in one row -->
+          <div class="file-meta">
+            <p class="file-size">6.7MB of 10.6MB</p>
+            <p class="file-status">Uploading... 78%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Done button -->
+      <button class="done-btn">DONE</button>
+    </div>
+  </body>
+</html>
